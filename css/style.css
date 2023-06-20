@@ -23,9 +23,12 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     opacity: 0.95;
+    display: flex;
+
 }
 .site-brand span{
     font-weight: 300;
+    display: inline;
 }
 #navbar-show-btn{
     background: transparent;
@@ -845,4 +848,8 @@ header.header-sm{
     font-size: 1.2rem;
     display: block;
     margin-bottom: 1rem;
+}
+body{
+    /* overflow: hidden !important; */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
